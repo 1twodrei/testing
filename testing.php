@@ -1,2 +1,9 @@
-<html><head></head><body><title><?php print_r($_COOKIE); ?></title></body></html>
+<html><head></head><body><title>
+<?php
+  if(!isset($_COOKIE)){
+    echo $_COOKIE;
+  }
+  
+  
+?></title></body></html>
 
